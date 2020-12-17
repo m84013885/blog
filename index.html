@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/blog/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/blog/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"m84013885.github.io","root":"/blog/","scheme":"Gemini","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Ming">
+<meta property="og:url" content="https://m84013885.github.io/blog/index.html">
+<meta property="og:site_name" content="Ming">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Ming">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://m84013885.github.io/blog/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Ming</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/blog/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Ming</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/blog/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/blog/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ming"
+      src="/blog/images/header.jpeg">
+  <p class="site-author-name" itemprop="name">Ming</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/m84013885" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;m84013885" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/m84013885" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner index posts-expand">
+      
+
+      
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/12/17/%E5%85%B6%E5%AE%9E%E6%88%91%E5%8F%AA%E6%98%AF%E8%AE%A9%E4%BD%A0%E5%88%AB%E5%90%8E%E6%82%94%E8%80%8C%E5%B7%B2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/12/17/%E5%85%B6%E5%AE%9E%E6%88%91%E5%8F%AA%E6%98%AF%E8%AE%A9%E4%BD%A0%E5%88%AB%E5%90%8E%E6%82%94%E8%80%8C%E5%B7%B2/" class="post-title-link" itemprop="url">其实我只是让你别后悔而已</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-12-17 18:55:49 / 修改时间：18:59:20" itemprop="dateCreated datePublished" datetime="2020-12-17T18:55:49+08:00">2020-12-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>其实都很清楚结果肯定是不好的，但是还是希望你去尝试一下。一来让你不再后悔，二来让你明白有些事情不是你能控制的。</em></p>
+<h4 id="尽力"><a href="#尽力" class="headerlink" title="尽力"></a>尽力</h4><p>希望你能尽力而为，别带着遗憾去往下一个赛道。每一次尝试都得来不易，别到了你连尝试的机会都没有的时候，你才想努力一次，那已经太晚了。做事情别有目的性，要抱着这件事只是为了自己而做就好了，别想太多。别让情绪控制了自己，你要学会控制情绪，好好控制自己的行动。</p>
+<h4 id="对话"><a href="#对话" class="headerlink" title="对话"></a>对话</h4>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/12/09/%E6%83%85%E5%95%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/12/09/%E6%83%85%E5%95%86/" class="post-title-link" itemprop="url">情商</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-12-09 19:36:46 / 修改时间：19:38:24" itemprop="dateCreated datePublished" datetime="2020-12-09T19:36:46+08:00">2020-12-09</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E6%84%9F%E6%82%9F/" itemprop="url" rel="index"><span itemprop="name">感悟</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>在我看来情商莫过于就是控制自己一瞬间的情绪，瞬间冷静下来再想办法得到一个算是经过深思熟虑的一个回复</em></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/12/04/%E5%A6%82%E6%9E%9C%E4%BD%A0%E4%B8%8D%E8%A7%89%E5%BE%97%E4%BD%A0%E4%B8%80%E5%B9%B4%E5%89%8D%E6%98%AF%E5%82%BB%E9%80%BC/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/12/04/%E5%A6%82%E6%9E%9C%E4%BD%A0%E4%B8%8D%E8%A7%89%E5%BE%97%E4%BD%A0%E4%B8%80%E5%B9%B4%E5%89%8D%E6%98%AF%E5%82%BB%E9%80%BC/" class="post-title-link" itemprop="url">如果你现在不觉得你一年前的自己是个蠢货</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-12-04 15:22:40 / 修改时间：15:32:52" itemprop="dateCreated datePublished" datetime="2020-12-04T15:22:40+08:00">2020-12-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E6%84%9F%E6%82%9F/" itemprop="url" rel="index"><span itemprop="name">感悟</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>如果你现在不觉得你一年前的自己是个蠢货，那说明你这一年没学到什么东西————达里奥</em></p>
+<h4 id="逆水行舟"><a href="#逆水行舟" class="headerlink" title="逆水行舟"></a>逆水行舟</h4><p>逆水行舟不进则退，随着年纪的增长其实压力也在不断的增加。害怕总有一天会敌不过年轻的一代，而自己也已逐渐的老去。然后自身的后路根本就毫无进展，没有任何退路可言，如果眼前的苟且抓不住的话是不是就代表你就是一个失败者。</p>
+<h4 id="寻找改变"><a href="#寻找改变" class="headerlink" title="寻找改变"></a>寻找改变</h4><p>我是不愿放弃自己，但是自身的条件并不算好，就算坚持下去又能坚持多久。这一次的改变不知道对我是不是有帮助的，但愿还能坚持个3、4年这样子。但是又有多少个码农能持续巅峰个好多年呢。我认为是很难的。</p>
+<h4 id="十字路口"><a href="#十字路口" class="headerlink" title="十字路口"></a>十字路口</h4><p>假如有一个十字路口，一条是渺无人烟的康庄大道，而另一条则是充满机遇的林间小道，我实在是不知道我会做何种选择。是会追求困难，还是步入简单，两种选择都不简单。一种要求你艰苦，另一种要求你接受。</p>
+<h4 id="小幸运"><a href="#小幸运" class="headerlink" title="小幸运"></a>小幸运</h4><p>就目前来看，我认为我现在看一年前的自己还是觉得一年前的自己实在是一个实实在在的蠢货，写的代码不忍直视。虽说不算太好，但是现在起码更为优雅一点。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/11/09/%E6%95%B0%E6%8D%AE%E9%9B%86%E5%90%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/11/09/%E6%95%B0%E6%8D%AE%E9%9B%86%E5%90%88/" class="post-title-link" itemprop="url">数据集合</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-11-09 16:55:20 / 修改时间：16:59:21" itemprop="dateCreated datePublished" datetime="2020-11-09T16:55:20+08:00">2020-11-09</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E6%83%B3%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">想法</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>就我在2019-02-26的时候的一个想法，热搜神器已经有人实现了，而且成为了一个还算成功的产品，但是数据集合这条路我觉得还可以继续延伸。</em></p>
+<h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>可以收集很多有意思的数据集合供用户观察，例如：2007～2020特朗普发推特的频率，或者2000～2020的电影票房变化，这些数据都可以结合起来，然后综合成一个网站供用户观察。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/10/19/%E6%B8%B8%E6%B3%B3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/10/19/%E6%B8%B8%E6%B3%B3/" class="post-title-link" itemprop="url">游泳</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-10-19 16:03:44 / 修改时间：16:08:59" itemprop="dateCreated datePublished" datetime="2020-10-19T16:03:44+08:00">2020-10-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E6%8A%BD%E8%B1%A1/" itemprop="url" rel="index"><span itemprop="name">抽象</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>有时会觉得自己下沉的厉害，而又不希望自己在水面上行走，继而失去了自我。人从来都是矛盾的。</em></p>
+<h4 id="适中"><a href="#适中" class="headerlink" title="适中"></a>适中</h4><p>想要持续的游，最好的办法就是在水中间，不上不下，就刚好在中间是最好的。然而这样是最难做到的，你会无意中下沉了，也就不自觉的上浮了，难以控制。</p>
+<h4 id="下沉"><a href="#下沉" class="headerlink" title="下沉"></a>下沉</h4><p>但是有一点我是知道的，只有下沉才会有危险，所以要尽可能的控制下沉的时间。</p>
+<h4 id="上浮"><a href="#上浮" class="headerlink" title="上浮"></a>上浮</h4><p>可能都会觉得上浮是最好的，但是我始终觉得人都是多面性的，如果否定下沉而一直上浮是不合理的。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/09/27/%E7%BB%86%E8%83%9E%E7%94%9F%E6%80%81/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/09/27/%E7%BB%86%E8%83%9E%E7%94%9F%E6%80%81/" class="post-title-link" itemprop="url">细胞生态</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-09-27 19:08:42 / 修改时间：19:30:39" itemprop="dateCreated datePublished" datetime="2020-09-27T19:08:42+08:00">2020-09-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>在一片巨大的黑幕中，先是有了两个黏在一起的细胞，其中一颗经过长时间的融合分裂出了另外一颗细胞，过了没多久又分裂出了另外一颗更小的细胞。</em></p>
+<h3 id="一、大雨"><a href="#一、大雨" class="headerlink" title="一、大雨"></a>一、大雨</h3><p>经过一场大雨，细胞茁壮成长，那是后面分裂出来的细胞并没有像两个大细胞一样有储存能量的能力，只有两颗细胞在大雨下逐渐的成长起来。</p>
+<h3 id="二、线"><a href="#二、线" class="headerlink" title="二、线"></a>二、线</h3><p>但是小细胞总要有得到能量的方法，一开始粘着两颗大细胞很容易就可以从大细胞身上得到能量。时间慢慢过去，两个小细胞逐渐变大，慢慢的小细胞不再和两个大细胞黏在一起，取而代之的是一根细细的细线，就是这根线慢慢给小细胞传输能源。</p>
+<h3 id="三、成长"><a href="#三、成长" class="headerlink" title="三、成长"></a>三、成长</h3><p>因为一个先分裂出来的细胞比那颗后分裂出来细胞要大一点，所以一直都是大细胞的线要更粗一点，而小细胞的线要细一点。过了好长一段时间，两个细胞逐渐变得差不多大小，而且看上去两个细胞也已经不再会长大了。但是线还是一如既往的“大细胞粗一点”、“小细胞细一点”。</p>
+<h3 id="四、新的线"><a href="#四、新的线" class="headerlink" title="四、新的线"></a>四、新的线</h3><p>可能是“小细胞”知道自己从上面的细胞获取的能量有限，所以“小细胞”就从下面伸出了新的线，向其他地方获取能量，而也因为这样“小细胞”不再需要向上获取能量了。而“大细胞”一如既往还是单单从上面的细胞里获取能量，因为足够了。</p>
+<h3 id="五、吸引"><a href="#五、吸引" class="headerlink" title="五、吸引"></a>五、吸引</h3><p>慢慢的两个细胞都吸引来了另外的细胞，两个细胞慢慢的黏在了一起。</p>
+<h3 id="六、分裂"><a href="#六、分裂" class="headerlink" title="六、分裂"></a>六、分裂</h3><p>“大细胞”首先分裂出了两个新的小细胞，而也因为这样，“大细胞”需要的能量越来越多，那条线也就越来越粗。而另外一边“小细胞”过了一段时间，好不容易总算生长出了一颗小细胞，但也因为“小细胞”从外面获取的能量已经不足以他们消耗了，重新从上面的细胞里获取能量，但是那根线还是一如既往的细。</p>
+<h3 id="七、最后"><a href="#七、最后" class="headerlink" title="七、最后"></a>七、最后</h3><p>到了现在“大细胞”已经丧失了从下面伸出线的能力，只能一个劲的往上面获取更多能量，才能维持他们两个小细胞以及两个大细胞的能量，上面的那根线不断的粗，而另外一边“小细胞”因为可以从别的地方获取能量，所以上面的细胞逐渐减少了“小细胞”的能量给予…</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/09/22/%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E4%B8%80%E7%94%9F%E9%83%BD%E6%98%AF%E7%B2%BE%E5%BD%A9%E7%9A%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/09/22/%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E4%B8%80%E7%94%9F%E9%83%BD%E6%98%AF%E7%B2%BE%E5%BD%A9%E7%9A%84/" class="post-title-link" itemprop="url">每个人的一生都是精彩的</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-09-22 17:55:03 / 修改时间：18:05:56" itemprop="dateCreated datePublished" datetime="2020-09-22T17:55:03+08:00">2020-09-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>每个人都希望自己的人生如同戏剧一样跌宕起伏精彩绝伦，然后每个人都觉得自己的一生平凡至极。就人生而言，我认为每个人的一生都是精彩绝伦的，我认为不管在你看来多么无聊的生活，在时间的纬度上看都会变得精彩万分。</em></p>
+<h3 id="时间的纬度"><a href="#时间的纬度" class="headerlink" title="时间的纬度"></a>时间的纬度</h3><p>有可能你长时间都在做同一件事情，然后你就觉得你个人的故事就回显得无聊乏味。其实并不是，把你个人的故事拉长，就简单的描述你个人的生老病死都能是一场伟大的电影。任何事物都是如此，你只有把时间的纬度拉长你才会真正的感受到这件事情带给你的力量。</p>
+<h3 id="你周遭的环境"><a href="#你周遭的环境" class="headerlink" title="你周遭的环境"></a>你周遭的环境</h3><p>其实伴随你成长的不光是你身边的人，你身边的环境更是发生着翻天覆地的变化，如果你记录下来10年的你生活的环境，再对比现在的生活环境就能够看得出来。</p>
+<h3 id="综合"><a href="#综合" class="headerlink" title="综合"></a>综合</h3><p>这些时间、环境、以及你个人的变化，都已经足够完成一部完整的戏剧，而且这部戏剧绝对称得上好看。所以每个人都不必要妄自菲薄，每个人都是完整的个人、都有着精彩的人生，你现在所受的苦都是为了你今后的福而在努力的！</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/09/03/%E4%BA%BA%E7%9A%84%E8%AE%B0%E5%BF%86%E6%98%AF%E4%B8%8D%E9%9D%A0%E8%B0%B1%E7%9A%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/09/03/%E4%BA%BA%E7%9A%84%E8%AE%B0%E5%BF%86%E6%98%AF%E4%B8%8D%E9%9D%A0%E8%B0%B1%E7%9A%84/" class="post-title-link" itemprop="url">人的记忆是不靠谱的</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-09-03 19:10:00 / 修改时间：19:17:27" itemprop="dateCreated datePublished" datetime="2020-09-03T19:10:00+08:00">2020-09-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>人总是会忘记一些事物，只是时间长短的问题。</em></p>
+<h3 id="账号"><a href="#账号" class="headerlink" title="账号"></a>账号</h3><p>今天整理了一下自己的各种账号密码，发现有好几个app或者是邮箱我是记不起来密码的，最后都是靠找回密码来重置密码。我也就是担心有这样的情况所以才打算找个地方把我的账号密码记录下来，不管怎么样，忘记了就找回这个笔记就好了。为此我深深的感叹人的记忆真的不靠谱，当时改密码的时候以为不会忘记的密码，过了一段时间就会不记得了。</p>
+<h3 id="回忆"><a href="#回忆" class="headerlink" title="回忆"></a>回忆</h3><p>以前就听说过一个说法，人都会不自觉的美化自己的记忆，以此来回忆过去。我非常的认同这一句话，总是以为过去很美好大概都是一个劲的在美化的原因，其实真实的回到过去未必你会喜欢过去的生活。</p>
+<h3 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h3><p>现在很喜欢记录一些东西，不管记录的是好的还是坏的，总是在记录。大概就是因为担心以后把重要的东西都忘记了。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/08/27/%E8%80%81%E6%B1%9F%E6%B9%96/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/08/27/%E8%80%81%E6%B1%9F%E6%B9%96/" class="post-title-link" itemprop="url">老江湖</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-08-27 16:39:14 / 修改时间：16:54:12" itemprop="dateCreated datePublished" datetime="2020-08-27T16:39:14+08:00">2020-08-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E6%8A%BD%E8%B1%A1/" itemprop="url" rel="index"><span itemprop="name">抽象</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>在职场上逐渐变成了一个老江湖了。记得刚开始的时候，看到身边的老江湖完全就是鄙夷的心态，现在没想到自己也会有逐渐变成老江湖的一天。</em></p>
+<h4 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h4><p>其实也不是不愿意工作了，而是现在的工作真的是太少了。不由得感叹，我当初选择前端这条路果然是一个不太正确的道路。刚开始这个行业很火，现在明显就是逐渐发现这些工作内容并不难，且工具越来越方便了。一个人可能就可以干之前3-4个人的工作了。所以也就导致现在的工作越来越少。而且做出来的效果还怎么样都不会有客户端的同学做出来的效果好（也不是不行只是尽全力做出来的效果，可能都没有客户端同学花费一点时间做出来的好，而且也没有客户端的稳定）。前端真的是陌路了吗？而我之后的道路又何去何从？我现在真的不由得开始思考这些问题。</p>
+<h4 id="道路"><a href="#道路" class="headerlink" title="道路"></a>道路</h4><p>职业的发展道路，其实说到底也就两条，纵向发展和横向发展。而前端的纵向和横向发现都挺明显的。纵向发展就是继续往深处学习前端的深度知识，理解代码深层次的内容，但是这些都是没有实实在在的效果展示的，你可能用尽方法去纵向发展，到头来却用不上。而横向发展，就是向着后端发展，或者往客户端发展，当然也可以更横向一点往设计方面靠边。</p>
+<h4 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h4><p>而我比较倾向于的选择是，横向发展。因为我本身就不属于科班出身的程序员，如果我还要去深入的研究底层的知识，那我本身的知识底蕴就不允许我这样做，我要边深入研究边查资料，而且就算这样下去肯定也不会有科班出身的同学的5成功力的学习效率高，我自己还会消耗很大，吃力不讨好的事情还是要少做。而横向发展就简单明了很多了，重新学习一门语言或者技术，你可以用3个月的时间学习到百分之八十的知识，而剩余百分之二十的知识会需要你花费之前时间的数倍，而且横向发展呈现的效果也明显，自身学习上也更有动力。</p>
+<h4 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h4><p>而现在情况就是工作上的事情我不需要过多的担忧，我有了大量的时间可以去钻研别的知识。我觉得应该好好的利用起来，专注的做一名斜杠青年。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://m84013885.github.io/blog/2020/07/20/%E5%BC%B9%E5%B9%95%E5%8A%A9%E6%89%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog/images/header.jpeg">
+      <meta itemprop="name" content="Ming">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ming">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/blog/2020/07/20/%E5%BC%B9%E5%B9%95%E5%8A%A9%E6%89%8B/" class="post-title-link" itemprop="url">弹幕助手</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2020-07-20 18:50:01 / 修改时间：18:54:05" itemprop="dateCreated datePublished" datetime="2020-07-20T18:50:01+08:00">2020-07-20</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/blog/categories/%E6%83%B3%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">想法</span></a>
+        </span>
+    </span>
+
+  
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><em>现如今中国各大视频网站都开始增加弹幕功能，弹幕已然成为年轻人需要的一种观影体验</em></p>
+<h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>我认为有一些剧场式的观看场景也可以加入弹幕的功能。例如观看戏剧时先扫一个二维码进入一个全黑的页面。里面也就只有发送弹幕的功能，然后你就可以发送实时弹幕。这样就可以增加看剧场的乐趣。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/blog/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/blog/page/8/">8</a><a class="extend next" rel="next" href="/blog/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ming</span>
+</div>
+  <div class="powered-by">
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+<script src="/blog/js/utils.js"></script><script src="/blog/js/motion.js"></script><script src="/blog/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: "/blog/",
+    }, {"enable":true,"appId":"vMFQ1UQhCEhEAmaq7W3sfYSf-gzGzoHsz","appKey":"3NxUhaQnJha2PfLKlwXoWupV","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":false,"recordIP":false,"enableQQ":false,"requiredFields":["nick"],"placeholder":"ヾﾉ≧∀≦)o来啊，快活啊!"}
+    ));
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
