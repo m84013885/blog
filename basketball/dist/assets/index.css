@@ -515,6 +515,39 @@
         -ms-flex: 1;
             flex: 1;
 }
+
+.loadData--WvlNf{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    font-size: 0.37333rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    width: 6rem;
+}
+.loadText--K5i2e{
+    padding: 0.4rem;
+}
+.loadBtns--K1a1p{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.loadBtns--K1a1p>div{
+    margin: 0.4rem 0;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
 *{
     margin: 0;
     padding: 0;
@@ -540,7 +573,7 @@ textarea {
 input::-webkit-input-placeholder {
     color: #66f;
 }
-html,body,#main--Ruaae{
+html,body,#main{
     position: relative;
     overflow: hidden;
     width: 100%;
