@@ -416,9 +416,11 @@
 .itemRadius--pibit:active {
     background-color: #f582ae;
 }
-.itemRadius--pibit:active .itemNumber--DeDcO{
+
+.itemRadius--pibit:active .itemNumber--DeDcO {
     background-color: #f582ae;
 }
+
 .active--gVYmc {
     background-color: #f582ae;
 }
@@ -429,6 +431,7 @@
     background-color: #f3d2c1;
     width: 2.4rem;
     text-align: center;
+    font-size: 0.42667rem;
 }
 
 .icon--YvuGg {
@@ -453,7 +456,7 @@
     border-top: 1px solid #ddd;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    height: 1.06667rem;
+    height: 1.6rem;
 }
 
 .bottomBtn--VwY_P {
@@ -479,6 +482,7 @@
 
 .table--QWXV7 {
     border-radius: 0.26667rem;
+    margin: 0 0.26667rem;
     margin-top: 0.26667rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -516,7 +520,7 @@
             flex: 1;
 }
 
-.loadData--WvlNf{
+.loadData--WvlNf {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -530,15 +534,18 @@
     border-radius: 0.4rem;
     width: 6rem;
 }
-.loadText--K5i2e{
+
+.loadText--K5i2e {
     padding: 0.4rem;
 }
-.loadBtns--K1a1p{
+
+.loadBtns--K1a1p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-.loadBtns--K1a1p>div{
+
+.loadBtns--K1a1p>div {
     margin: 0.4rem 0;
     width: 50%;
     display: -webkit-box;
